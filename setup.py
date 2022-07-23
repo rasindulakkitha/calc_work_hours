@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='rw_workhourcalc',
+    name='workhourcalc',
     version='0.0.1',
     description="Calculate working hours",
     long_description='Gets the input opening and closing time of restaurants in millisecond and writes the working '
