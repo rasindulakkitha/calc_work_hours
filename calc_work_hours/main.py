@@ -1,5 +1,5 @@
-from src.controller import CalculateWorkHours
-from src.json_utils import read_json_file, validate_json_file
+from calc_work_hours.controller import CalculateWorkHours
+from calc_work_hours.json_utils import read_json_file, validate_json_file
 
 """ function which user needs to use to get the working hours intervals in human readable format"""
 

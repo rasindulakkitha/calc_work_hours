@@ -16,5 +16,5 @@ setup(
     ],
     keywords='work_hour',
     packages=find_packages(exclude=('tests*', 'testing*')),
-    install_requires=['']
+    install_requires=['arrow','jsonschema']
 )

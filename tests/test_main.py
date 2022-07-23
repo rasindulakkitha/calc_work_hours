@@ -1,4 +1,4 @@
-from src.main import calculate_working_hours
+from calc_work_hours.main import calculate_working_hours
 
 expected_output = """Monday: Closed
 Tuesday: 10 AM - 6 PM

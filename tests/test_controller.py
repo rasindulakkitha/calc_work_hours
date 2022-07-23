@@ -1,6 +1,6 @@
 import pytest
 
-from src.controller import CalculateWorkHours
+from calc_work_hours.controller import CalculateWorkHours
 
 """" input is validated json """
 

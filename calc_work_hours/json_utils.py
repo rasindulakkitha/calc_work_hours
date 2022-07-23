@@ -4,8 +4,8 @@ import sys
 from jsonschema import validate
 import jsonschema
 
-from src import TYPES, EVENT_CLOSE, EVENT_OPEN, DAYS
-from src.schema import main_json_schema_structure
+from calc_work_hours import TYPES, EVENT_CLOSE, EVENT_OPEN, DAYS
+from calc_work_hours.schema import main_json_schema_structure
 
 """ read the json file from the file path. and also this validates the json file. if its not in json format then
     it will be raise an exception"""

@@ -1,6 +1,6 @@
 import pytest
 
-from src.utils import format_time, format_time_range, format_output
+from calc_work_hours.utils import format_time, format_time_range, format_output
 
 
 @pytest.mark.parametrize("input,expected_output", [(36000, "10 AM"), (64800, "6 PM"), (3600, "1 AM"), (43200, "12 PM")])

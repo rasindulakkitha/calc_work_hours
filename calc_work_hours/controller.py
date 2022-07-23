@@ -1,8 +1,8 @@
 import sys
 
-from src import DAYS
-from src.schema import result_schema
-from src.utils import format_time, format_time_range, format_output
+from calc_work_hours import DAYS
+from calc_work_hours.schema import result_schema
+from calc_work_hours.utils import format_time, format_time_range, format_output
 
 """" implement calculate work hours in here. first refactor the code and setup the json with correct events.
     then implement the working hours interval with human readable format"""
